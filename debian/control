@@ -1,0 +1,16 @@
+Source: ec2-api-tools
+Section: contrib/net
+Priority: extra
+Maintainer: Vyatta Package Maintainers <maintainers@vyatta.com>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+
+Package: ec2-api-tools
+Architecture: any
+Depends:  default-jre-headless
+Pre-Depends: 
+Suggests: 
+Replaces: 
+Description: Amazon API tools
+ Tools for managing Amazon AMI instances
+
